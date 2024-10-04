@@ -1,0 +1,131 @@
+Current date: 
+14/03/2024 17:57:26
+Voltage for maximum counts: 44.8
+Starting to search for the reference maximum count at 14/03/2024 17:57:26.
+Stabilisation started at 14/03/2024 17:57:27.
+Current reference counts: 84, Current voltage: 44.400000000000134
+Closed at: 
+14/03/2024 17:57:27
+--------------------------------------------------------------------
+Current date: 
+14/03/2024 18:03:03
+Voltage for maximum counts: 19.3
+Starting to search for the reference maximum count at 14/03/2024 18:03:03.
+Stabilisation started at 14/03/2024 18:03:03.
+Current reference counts: 74, Current voltage: 18.600000000000012
+Closed at: 
+14/03/2024 18:03:03
+--------------------------------------------------------------------
+Current date: 
+14/03/2024 18:04:18
+Voltage for maximum counts: 44.2
+Starting to search for the reference maximum count at 14/03/2024 18:04:18.
+Stabilisation started at 14/03/2024 18:04:19.
+Current reference counts: 85, Current voltage: 44.50000000000015
+Closed at: 
+14/03/2024 18:04:19
+--------------------------------------------------------------------
+Current date: 
+14/03/2024 18:06:13
+Voltage for maximum counts: 43.9
+Starting to search for the reference maximum count at 14/03/2024 18:06:13.
+Stabilisation started at 14/03/2024 18:06:13.
+Current reference counts: 67, Current voltage: 43.400000000000134
+Closed at: 
+14/03/2024 18:06:13
+--------------------------------------------------------------------
+Current date: 
+14/03/2024 18:07:46
+Voltage for maximum counts: 18.8
+Starting to search for the reference maximum count at 14/03/2024 18:07:46.
+Stabilisation started at 14/03/2024 18:07:47.
+Current reference counts: 75, Current voltage: 18.50000000000001
+Stabilisation. 100 points statistics. Mean: 74.23, Variance: 148.61710000000002
+Stabilisation. 100 points statistics. Mean: 75.07, Variance: 192.84510000000003
+Stabilisation. 100 points statistics. Mean: 75.58, Variance: 189.44359999999998
+Stabilisation. 100 points statistics. Mean: 74.11, Variance: 166.0779
+Stabilisation. 100 points statistics. Mean: 76.18, Variance: 177.70759999999999
+Stabilisation. 100 points statistics. Mean: 72.53, Variance: 144.90909999999997
+Stabilisation. 100 points statistics. Mean: 78.33, Variance: 195.30110000000002
+Stabilisation. 100 points statistics. Mean: 77.61, Variance: 159.4379
+Stabilisation. 100 points statistics. Mean: 75.35, Variance: 140.9075
+Stabilisation. 100 points statistics. Mean: 74.8, Variance: 156.32
+Stabilisation. 100 points statistics. Mean: 74.01, Variance: 140.22989999999996
+Stabilisation. 100 points statistics. Mean: 75.59, Variance: 156.54190000000003
+Stabilisation. 100 points statistics. Mean: 72.85, Variance: 139.12749999999997
+Stabilisation. 100 points statistics. Mean: 74.3, Variance: 183.11000000000004
+Stabilisation. 100 points statistics. Mean: 74.03, Variance: 158.26909999999998
+Stabilisation. 100 points statistics. Mean: 74.73, Variance: 175.39710000000002
+Stabilisation. 100 points statistics. Mean: 75.02, Variance: 111.59960000000002
+Stabilisation. 100 points statistics. Mean: 76.46, Variance: 152.5884
+Stabilisation. 100 points statistics. Mean: 75.31, Variance: 144.8339
+Stabilisation. 100 points statistics. Mean: 74.21, Variance: 116.4259
+Stabilisation. 100 points statistics. Mean: 78.31, Variance: 161.05389999999997
+Stabilisation. 100 points statistics. Mean: 75.52, Variance: 156.20960000000002
+Stabilisation. 100 points statistics. Mean: 76.54, Variance: 172.7284
+Stabilisation. 100 points statistics. Mean: 73.12, Variance: 120.66560000000003
+Stabilisation. 100 points statistics. Mean: 75.25, Variance: 130.5275
+Stabilisation. 100 points statistics. Mean: 76.36, Variance: 158.2704
+Stabilisation. 100 points statistics. Mean: 74.84, Variance: 146.93439999999998
+Stabilisation. 100 points statistics. Mean: 71.4, Variance: 152.96
+Stabilisation. 100 points statistics. Mean: 71.95, Variance: 143.0075
+Stabilisation. 100 points statistics. Mean: 74.8, Variance: 130.76
+Stabilisation. 100 points statistics. Mean: 74.46, Variance: 131.7484
+Stabilisation. 100 points statistics. Mean: 75.05, Variance: 131.5675
+Stabilisation. 100 points statistics. Mean: 74.3, Variance: 122.27
+Stabilisation. 100 points statistics. Mean: 74.95, Variance: 176.32749999999996
+Stabilisation. 100 points statistics. Mean: 75.29, Variance: 140.4459
+Stabilisation. 100 points statistics. Mean: 71.73, Variance: 141.2171
+Stabilisation. 100 points statistics. Mean: 75.91, Variance: 192.16189999999997
+Stabilisation. 100 points statistics. Mean: 74.25, Variance: 187.7875
+Stabilisation. 100 points statistics. Mean: 74.63, Variance: 121.2131
+Stabilisation. 100 points statistics. Mean: 74.5, Variance: 129.61
+Stabilisation. 100 points statistics. Mean: 76.09, Variance: 142.9419
+Stabilisation. 100 points statistics. Mean: 73.76, Variance: 134.34240000000003
+Stabilisation. 100 points statistics. Mean: 73.87, Variance: 182.1731
+Stabilisation. 100 points statistics. Mean: 74.62, Variance: 160.4956
+Stabilisation. 100 points statistics. Mean: 77.74, Variance: 164.87239999999994
+Stabilisation. 100 points statistics. Mean: 76.95, Variance: 179.00749999999996
+Stabilisation. 100 points statistics. Mean: 75.75, Variance: 193.3675
+Stabilisation. 100 points statistics. Mean: 77.87, Variance: 139.63310000000004
+Stabilisation. 100 points statistics. Mean: 73.46, Variance: 142.2484
+Stabilisation. 100 points statistics. Mean: 75.98, Variance: 202.9996
+Stabilisation. 100 points statistics. Mean: 76.05, Variance: 152.0675
+Stabilisation. 100 points statistics. Mean: 76.06, Variance: 170.7764
+Stabilisation. 100 points statistics. Mean: 75.07, Variance: 168.18510000000003
+Closed at: 
+14/03/2024 18:09:58
+--------------------------------------------------------------------
+Current date: 
+21/03/2024 15:27:15
+Voltage for maximum counts: 19.1
+Starting to search for the reference maximum count at 21/03/2024 15:27:15.
+Stabilisation started at 21/03/2024 15:27:15.
+Current reference counts: 86, Current voltage: 19.80000000000003
+Stabilisation. 1000 points statistics. Mean: 85.406, Variance: 180.275164
+Stabilisation. 1000 points statistics. Mean: 87.218, Variance: 162.33847599999999
+Closed at: 
+21/03/2024 15:28:12
+--------------------------------------------------------------------
+Current date: 
+21/03/2024 15:32:44
+Voltage for maximum counts: 19.1
+Starting to search for the reference maximum count at 21/03/2024 15:32:44.
+Stabilisation started at 21/03/2024 15:32:45.
+Current reference counts: 87, Current voltage: 18.40000000000001
+Stabilisation. 1000 points statistics. Mean: 87.537, Deviation: 13.404724204548186
+Stabilisation. 1000 points statistics. Mean: 87.141, Deviation: 13.154889547236799
+Stabilisation. 1000 points statistics. Mean: 87.224, Deviation: 12.687703653537941
+Closed at: 
+21/03/2024 15:33:59
+--------------------------------------------------------------------
+Current date: 
+21/03/2024 15:36:17
+Voltage for maximum counts: 19.6
+Starting to search for the reference maximum count at 21/03/2024 15:36:17.
+Stabilisation started at 21/03/2024 15:36:17.
+Current reference counts: 72, Current voltage: 19.60000000000003
+Stabilisation. 1000 points statistics. Mean: 72.466, Deviation: 12.093
+Closed at: 
+21/03/2024 15:37:04
+--------------------------------------------------------------------
