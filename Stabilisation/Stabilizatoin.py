@@ -4,11 +4,11 @@
 import math
 
 import numpy as np
-import wlmData
-import wlmConst
+import WLM.wlmData
+import WLM.wlmConst
 import ctypes
 import sys
-import WLM_methods
+import WLM.WLM_methods
 # import pyvisa
 import time
 import threading
