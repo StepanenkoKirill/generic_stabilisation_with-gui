@@ -8,7 +8,7 @@ import WLM.wlmData
 import WLM.wlmConst
 import ctypes
 import sys
-import WLM.WLM_methods
+from WLM import WLM_methods, wlmConst, wlmData
 # import pyvisa
 import time
 import threading
@@ -27,7 +27,7 @@ if sim:
 if not sim:
     import TimeTagger
     try:
-        from MDT_COMMAND_LIB import *
+        from MDT69XB.MDT_COMMAND_LIB import *
     except OSError as ex:
         print("Warning:", ex)
 
@@ -612,4 +612,3 @@ def main():
         print("*** End ***")
 # threading.Thread(target=main, daemon=True).start()
 # input('Press <Enter> to exit.')
-main()
