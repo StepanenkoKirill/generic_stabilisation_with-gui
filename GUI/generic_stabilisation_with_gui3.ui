@@ -271,8 +271,14 @@
             </property>
            </widget>
            <widget class="QPushButton" name="pushButton_6">
+            <property name="toolTip">
+             <string>Stabilisation status</string>
+            </property>
             <property name="text">
              <string>Status</string>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
             </property>
            </widget>
           </widget>
@@ -295,8 +301,17 @@
             </property>
            </widget>
            <widget class="QPushButton" name="pushButton_7">
+            <property name="toolTip">
+             <string notr="true">Plot is ready or not</string>
+            </property>
             <property name="text">
              <string>Status</string>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
             </property>
            </widget>
           </widget>
@@ -320,6 +335,20 @@
             </size>
            </property>
           </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="text">
+            <string>Start</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="Line" name="line_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
          </item>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -352,7 +381,7 @@
              <property name="orientation">
               <enum>Qt::Vertical</enum>
              </property>
-             <widget class="QWidget" name="">
+             <widget class="QWidget" name="layoutWidget">
               <layout class="QHBoxLayout" name="horizontalLayout">
                <item>
                 <widget class="QLabel" name="label_13">
@@ -370,7 +399,7 @@
                </item>
               </layout>
              </widget>
-             <widget class="QWidget" name="">
+             <widget class="QWidget" name="layoutWidget">
               <layout class="QHBoxLayout" name="horizontalLayout_2">
                <item>
                 <widget class="QLabel" name="label_11">
@@ -388,7 +417,7 @@
                </item>
               </layout>
              </widget>
-             <widget class="QWidget" name="">
+             <widget class="QWidget" name="layoutWidget">
               <layout class="QHBoxLayout" name="horizontalLayout_3">
                <item>
                 <widget class="QLabel" name="label_12">
@@ -406,7 +435,7 @@
                </item>
               </layout>
              </widget>
-             <widget class="QWidget" name="">
+             <widget class="QWidget" name="layoutWidget">
               <layout class="QHBoxLayout" name="horizontalLayout_4">
                <item>
                 <widget class="QLabel" name="label_10">
@@ -424,7 +453,7 @@
                </item>
               </layout>
              </widget>
-             <widget class="QWidget" name="">
+             <widget class="QWidget" name="layoutWidget">
               <layout class="QHBoxLayout" name="horizontalLayout_5">
                <item>
                 <widget class="QLabel" name="label_9">

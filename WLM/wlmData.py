@@ -10,7 +10,6 @@ dll = None
 def LoadDLL(path):
 	global dll
 	dll = ctypes.WinDLL(path) if os.name == 'nt' else ctypes.CDLL(path)
-
 # ***********  Functions for general usage  ****************************
 	# intptr_t Instantiate(int32_t RFC, int32_t Mode, intptr_t P1, int32_t P2)
 	dll.Instantiate.argtypes = [ctypes.c_int32, ctypes.c_int32, ctypes.c_void_p, ctypes.c_int32]

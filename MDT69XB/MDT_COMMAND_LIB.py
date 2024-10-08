@@ -1,8 +1,14 @@
 from ctypes import *
+import os
 
-#region import dll functions
+# region import dll functions
 
-mdtLib = cdll.LoadLibrary(r"C:\Users\photo\PycharmProjects\Time_tagger1\Time_tagger\MDT_COMMAND_LIB_x64.dll")
+cur_path = os.getcwd()
+# par_path = os.path.abspath(os.path.join(cur_path, os.pardir))
+mdt_remainder = r"MDT69XB\MDT_COMMAND_LIB_x64.dll"
+path_to_load = os.path.join(cur_path, mdt_remainder)
+# print(path_to_load)
+mdtLib = cdll.LoadLibrary(path_to_load)
 cmdOpen = mdtLib.Open
 cmdOpen.restype=c_int
 cmdOpen.argtypes=[c_char_p, c_int, c_int]

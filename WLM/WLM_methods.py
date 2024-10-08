@@ -1,7 +1,6 @@
 import ctypes
 import numpy as np
-import wlmData
-import wlmConst
+from WLM import wlmData, wlmConst
 import time
 import matplotlib.pyplot as plt
 import pyvisa

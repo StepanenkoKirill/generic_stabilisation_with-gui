@@ -4,11 +4,11 @@
 import math
 
 import numpy as np
-import WLM.wlmData
-import WLM.wlmConst
-import ctypes
+import os
+from ctypes import cdll
 import sys
-from WLM import WLM_methods, wlmConst, wlmData
+from WLM import wlmConst, wlmData
+from WLM.WLM_methods import resonator_info_maker
 # import pyvisa
 import time
 import threading
@@ -31,8 +31,13 @@ if not sim:
     except OSError as ex:
         print("Warning:", ex)
 
-    # Заменить путь библиотеки (скопировать из другой программы)
-    mdtLib = cdll.LoadLibrary(r"C:\Users\Photon\PycharmProjects\Time_tagger\MDT_COMMAND_LIB_x64.dll")
+# Getting automatically correct directory of file
+cur_path = os.getcwd()
+# par_path = os.path.abspath(os.path.join(cur_path, os.pardir))
+mdt_remainder = r"MDT69XB\MDT_COMMAND_LIB_x64.dll"
+path_to_load = os.path.join(cur_path, mdt_remainder)
+# print(path_to_load)
+mdtLib = cdll.LoadLibrary(path_to_load)
 
 #########################################################
 # Disable Python warnings
@@ -60,8 +65,11 @@ plot_t = 0
 #########################################################
 # Set the DLL_PATH variable according to your environment
 #########################################################
+# wlmData_remainder = r"WLM\wlmData.dll"
+# DLL_PATH = os.path.abspath(os.path.join(par_path, wlmData_remainder))
 DLL_PATH = "wlmData.dll"
-
+# DLL_PATH = r"C:\Users\Ольга\PycharmProjects\Qt5Projects\generic_stabilisation_with_gui\WLM\wlmData.dll"
+# print(DLL_PATH)
 #########################################################
 # Load DLL from DLL_PATH
 #########################################################
@@ -590,7 +598,7 @@ def main():
         for mdt in devs:
             if(mdt[1] == "MDT693B" and WLM_available):
                 # Внутри resonator_info_maker есть time_limit, который ограничивает время сканирования
-                WLM_methods.resonator_info_maker(down_reference, upper_reference)
+                resonator_info_maker(down_reference, upper_reference)
                 wlmData.dll.SetDeviationMode(True)
                 wlmData.dll.SetDeviationReference(REFERENCE_MEMORY_FREQUENCY)
                 # Можно сделать вывод картинки в файл, чтобы не прерывать выполнение программы
